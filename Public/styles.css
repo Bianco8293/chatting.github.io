@@ -1,0 +1,40 @@
+/* CSS ile sayfayı biçimlendirin */
+.chat-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-box {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-y: auto;
+}
+
+.chat-history {
+    min-height: 300px;
+    padding: 10px;
+}
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#user-msg {
+    flex-grow: 1;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+#send-btn {
+    padding: 5px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
